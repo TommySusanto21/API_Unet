@@ -37,7 +37,7 @@ app.add_middleware(
 
 def build_model():
 
-    model = smp.UnetPlusPlus(
+    model = smp.Unet(
 
         encoder_name="resnet34",
 
